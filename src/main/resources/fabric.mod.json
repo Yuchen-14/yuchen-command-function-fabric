@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "id": "ycf",
+    "version": "${version}",
+    "name": "yuchen的命令函数",
+    "description": "将多条命令合并为一条，支持变量与逻辑",
+    "authors": ["yuchen"],
+    "contact": {},
+    "license": "MIT",
+    "environment": "server",
+    "entrypoints": {
+        "main": [
+            "com.yuchen.ycf.YCFMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
