@@ -13,10 +13,9 @@
             "com.yuchen.ycf.YCFMod"
         ]
     },
-    "mixins": [],
     "depends": {
-        "fabricloader": ">=${loader_version}",
-        "fabric-api": "*",
-        "minecraft": "${minecraft_version}"
+        "fabricloader": ">=0.19.3",
+        "minecraft": "~1.21.1",
+        "fabric-api": "*"
     }
 }
